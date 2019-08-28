@@ -361,16 +361,23 @@ h1 {
 img {
   width: 200px;
 }
+a {
+  z-index: 1;
+}
+object {
+  margin-right: 20px;
+  pointer-events: none;
+}
     /* fonts */
     @font-face {
       font-family: Nunito;
       font-style: normal;
       font-weight: normal;
       src: local('Nunito'),
-           url('Nunito-Regular.5d9867f2.woff2') format('woff2'),
-           url('Nunito-Regular.7004e689.woff') format('woff'),
-           url('Nunito-Regular.eef0a241.ttf'),
-           url('Nunito-Regular.d1362e7e.eot') format('eot');
+           url('/Nunito-Regular.5d9867f2.woff2') format('woff2'),
+           url('/Nunito-Regular.7004e689.woff') format('woff'),
+           url('/Nunito-Regular.eef0a241.ttf'),
+           url('/Nunito-Regular.d1362e7e.eot') format('eot');
     }
     /* @font-face {
       font-family: Anton;
@@ -387,4 +394,4 @@ img {
 
 
 
-/*# sourceMappingURL=main.af46ece4.css.map */
+/*# sourceMappingURL=/main.af46ece4.css.map */
