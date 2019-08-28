@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="img/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>parcel</title>
 
-  <link rel="stylesheet" href="./main.css">
-  <title>parcel</title>
-</head>
-<body>
+    <!-- Fix chrome mobile vh -->
+    <script>
+      let vh = window.innerHeight * 0.01
+      document.documentElement.style.setProperty('--vh', `${vh}px`)
+      window.addEventListener('resize', () => {
+        let vh = window.innerHeight * 0.01
+        document.documentElement.style.setProperty('--vh', `${vh}px`)
+      })
+    </script>
+    <!-- height: calc(var(--vh, 1vh) * 100); -->
+  </head>
 
+  <body>
     <a href="#">
-        <object type="image/svg+xml" data="./img/github.svg" width="50" height="50" >
-          Your browser does not support SVG
-       </object>
+      <object
+        type="image/svg+xml"
+        data="./img/github.svg"
+        width="50"
+        height="50"
+      >
+        Your browser does not support SVG
+      </object>
     </a>
     <h1>Parcel</h1>
-    <img src="./img/cherry-welcome.png" alt="testing image">
+    <img src="./img/cherry-welcome.png" alt="testing image" />
 
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
