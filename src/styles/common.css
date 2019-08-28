@@ -1,5 +1,5 @@
 body {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -10,6 +10,7 @@ h1 {
 }
 img {
   width: 200px;
+  transform: scale(0.5);
 }
 a {
   z-index: 1;

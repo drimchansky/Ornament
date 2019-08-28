@@ -349,7 +349,8 @@ template {
 }
 
 body {
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -360,6 +361,7 @@ h1 {
 }
 img {
   width: 200px;
+  transform: scale(0.5);
 }
 a {
   z-index: 1;

@@ -195,16 +195,19 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+module.exports = {};
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/fonts.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+module.exports = {};
 },{"./..\\fonts\\Nunito-Regular.woff2":[["Nunito-Regular.5d9867f2.woff2","fonts/Nunito-Regular.woff2"],"fonts/Nunito-Regular.woff2"],"./..\\fonts\\Nunito-Regular.woff":[["Nunito-Regular.7004e689.woff","fonts/Nunito-Regular.woff"],"fonts/Nunito-Regular.woff"],"./..\\fonts\\Nunito-Regular.ttf":[["Nunito-Regular.eef0a241.ttf","fonts/Nunito-Regular.ttf"],"fonts/Nunito-Regular.ttf"],"./..\\fonts\\Nunito-Regular.eot":[["Nunito-Regular.d1362e7e.eot","fonts/Nunito-Regular.eot"],"fonts/Nunito-Regular.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+module.exports = {};
 },{"../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./styles/common.css":"styles/common.css","./styles/fonts.css":"styles/fonts.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -233,7 +236,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3956" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "4295" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

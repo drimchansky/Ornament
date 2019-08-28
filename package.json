@@ -9,13 +9,15 @@
   },
   "author": "DRIMchansky",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "autoprefixer": "^9.6.1",
     "eslint": "^6.2.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "normalize.css": "^8.0.1",
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.3",
+    "postcss": "^7.0.17",
+    "postcss-modules": "^1.4.1"
   }
 }
