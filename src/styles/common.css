@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: rgb(27, 32, 27);
+  font-family: Nunito, sans-serif;
+}
+img {
+  width: 200px;
+}

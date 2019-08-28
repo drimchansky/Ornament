@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: rgb(27, 32, 27);
+}
+img {
+  width: 200px;
+}
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
