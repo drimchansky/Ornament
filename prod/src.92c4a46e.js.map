@@ -1,1 +1,0 @@
-{"version":3,"sources":["js/scripts.js","index.js"],"names":["post","console","log"],"mappings":";AAAA,IAAMA,EAAO,WAAMC,OAAAA,QAAQC,IAAI,IAE/BF,IACAC,QAAQC,IAAI;;ACHZ,aAAA,QAAA","file":"src.92c4a46e.js","sourceRoot":"..\\src","sourcesContent":["const post = () => console.log(2);\r\n\r\npost();\r\nconsole.log('2');\r\n","import './js/scripts';"]}

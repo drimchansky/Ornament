@@ -4,8 +4,8 @@
   "description": "start your web project out of box",
   "main": "index.js",
   "scripts": {
-    "watch": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./ --out-dir ./prod",
+    "watch": "parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html --public-url ./ --out-dir ./prod --no-cache",
     "clean-all": "rimraf dist/ prod/",
     "clean": "rimraf dist/"
   },
