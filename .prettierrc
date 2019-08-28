@@ -1,9 +1,0 @@
-{
-  "trailingComma": "es5",
-  "tabWidth": 2,
-  "semi": true,
-  "singleQuote": true,
-  "prettier.disableLanguages": ["html"],
-  "jsxBracketSameLine": true,
-  "singleAttributePerLine": true
-}
