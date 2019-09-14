@@ -2,3 +2,7 @@
 
 @import './common.css';
 @import './fonts.css';
+
+body {
+	background: rebeccapurple;
+}
