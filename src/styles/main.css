@@ -3,6 +3,9 @@
 @import './common.css';
 @import './fonts.css';
 
-body {
-	background: rebeccapurple;
+.selector {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: flex-start;
 }

@@ -24,5 +24,18 @@
     "parcel-bundler": "^1.12.3",
     "postcss": "^7.0.17",
     "prettier": "^1.18.2"
-  }
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "grid": true
+      }
+    }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
 }
