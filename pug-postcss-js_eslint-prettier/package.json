@@ -6,8 +6,7 @@
   "scripts": {
     "watch": "parcel src/pages/index.pug --no-cache",
     "build": "parcel build src/pages/index.pug --public-url ./ --out-dir ./prod --no-cache",
-    "clear-all": "rimraf dist/ prod/",
-    "clear": "rimraf dist/"
+    "clear": "rimraf dist/ prod/"
   },
   "author": "DRIMchansky",
   "license": "ISC",
