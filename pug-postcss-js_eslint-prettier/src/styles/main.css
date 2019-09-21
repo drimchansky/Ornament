@@ -1,8 +1,5 @@
 @import '../../node_modules/normalize.css/normalize.css';
 
-@import './common.css';
+@import './page.css';
 @import './fonts.css';
-
-body {
-	background: rebeccapurple;
-}
+@import './properties.css';

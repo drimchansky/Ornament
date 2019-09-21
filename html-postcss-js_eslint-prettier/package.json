@@ -1,0 +1,40 @@
+{
+  "name": "parcel-template",
+  "version": "0.0.1",
+  "description": "start your web project out of box",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html --public-url ./ --out-dir ./prod --no-cache",
+    "clear": "rimraf dist/ prod/"
+  },
+  "author": "DRIMchansky",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.3",
+    "postcss": "^7.0.17",
+    "prettier": "^1.18.2"
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "grid": true
+      }
+    }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
+}
