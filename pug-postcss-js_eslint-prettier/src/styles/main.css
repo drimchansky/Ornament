@@ -1,0 +1,5 @@
+@import '../../node_modules/normalize.css/normalize.css';
+
+@import './page.css';
+@import './fonts.css';
+@import './properties.css';

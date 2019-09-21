@@ -1,0 +1,23 @@
+doctype html
+html.page( lang="en" )
+  title Parcel-template
+  link(rel='stylesheet', href='../styles/main.css')
+  meta( name="description" content="some description" )
+  meta( name="viewport" content="width=device-width, initial-scale=1.0" )
+  
+  body.page__body
+
+    include header.pug
+
+    .test
+      a(href='blog.pug') Go to test blog
+
+    .inline-icon
+      p inline icon
+      .icon
+        include ../img/github.svg
+
+
+
+    include footer.pug
+    script(src='../js/index.js')
