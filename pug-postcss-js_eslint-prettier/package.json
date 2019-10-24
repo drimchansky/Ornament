@@ -33,7 +33,10 @@
   "postcss": {
     "modules": false,
     "plugins": {
-      "postcss-custom-properties": {},
+      "postcss-custom-properties": {
+        "preserve": true,
+        "importFrom": "./src/styles/properties.css"
+      },
       "autoprefixer": {
         "grid": true
       },
