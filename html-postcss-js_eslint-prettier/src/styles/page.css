@@ -1,4 +1,7 @@
 /* PAGE */
 
 .page {
+  &__body {
+    display: grid;
+  }
 }

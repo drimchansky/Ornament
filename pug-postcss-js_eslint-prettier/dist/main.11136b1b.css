@@ -351,18 +351,20 @@ template {
 .page {
   font-size: 16px;
 }
-.page__body {
-  height: 100vh;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-align: center;
-      align-items: center;
-  font-family: var(--page-font);
-}
+
+  .page__body {
+    height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    font-family: var(--page-font);
+  }
+
 .icon {
   height: 30px;
   width: 30px;
