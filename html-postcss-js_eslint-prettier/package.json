@@ -6,7 +6,8 @@
   "scripts": {
     "watch": "parcel src/index.html --no-cache",
     "build": "parcel build src/index.html --public-url ./ --out-dir ./prod --no-cache",
-    "clear": "rimraf dist/ prod/"
+    "clear": "rimraf dist/ prod/",
+    "lint": "node -e console.clear() && stylelint src/styles/**/*.css"
   },
   "author": "DRIMchansky",
   "license": "ISC",
@@ -22,7 +23,9 @@
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.4",
     "postcss": "^7.0.17",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "stylelint": "^11.1.1",
+    "stylelint-config-standard": "^19.0.0"
   },
   "postcss": {
     "modules": false,
@@ -36,5 +39,15 @@
     "last 1 version",
     "> 1%",
     "IE 10"
-  ]
+  ],
+    "eslintIgnore": [
+    "node_modules",
+    "dist",
+    ".cache"
+  ],
+  "stylelint": {
+    "extends": [
+      "stylelint-config-standard"
+    ]
+  }
 }
