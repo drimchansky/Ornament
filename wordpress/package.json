@@ -1,0 +1,83 @@
+{
+  "name": "fictional-university-lwc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier",
+    "lint": "node -e console.clear() && stylelint ./css/**/*.css",
+    "lint-fix": "node -e console.clear() && stylelint ./css/**/*.css --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@prettier/plugin-php": "^0.11.2",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-postcss": "^8.0.0",
+    "postcss-color-function": "^4.1.0",
+    "postcss-custom-properties": "^9.0.2",
+    "postcss-hexrgba": "^1.0.2",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.2",
+    "postcss-nested": "^4.1.2",
+    "postcss-simple-vars": "^5.0.2",
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "grid": true
+      },
+      "postcss-nested": {},
+      "postcss-custom-properties": {
+        "preserve": true,
+        "importFrom": "./css/base/properties.css"
+      }
+    }
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "dist",
+    ".cache"
+  ],
+  "stylelint": {
+    "plugins": [
+      "stylelint-order"
+    ],
+    "rules": {
+      "value-list-comma-newline-after": [
+        "always"
+      ],
+      "declaration-block-trailing-semicolon": null,
+      "block-closing-brace-newline-before": null,
+      "block-opening-brace-space-before": null
+    },
+    "extends": [
+      "stylelint-config-standard",
+      "stylelint-config-recess-order"
+    ]
+  }
+}
